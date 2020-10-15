@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+#root{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#navbar{
+  background: rgb(68, 76, 87)
+  ;
+}
+.nav-text{
+  color: #D3D3D3;
+}
+
+.mr-auto{
+  margin: 0 auto;
+}
+.mr-auto .navitem .nav-text{
+  color: #fff;
+}
+
+.buttonLogin{
+  background-color:#D81E5B;
+  padding: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttonLogin:hover{
+  background-color:#2AC383
+  ;
+}
+
+.buttonLogin a:hover{
+  text-decoration: none;
+}
+
+.container{
+  width: 100%;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+/* Sign in form*/
+.signinform {
+  width: 500px;
+  margin: 100px auto;
+  padding: 50px;
+  box-shadow: 2px 0px 31px #efefef;
+}
+
+/* add property form*/
+.addProperty {
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 2px 0px 50px #efefef;
+}
+
+/* Edit Profile css*/
+.editProfile{
+  width: 90%;
+  margin: 25px auto;
+  padding: 25px;
+  box-shadow: 2px 0px 31px #efefef;
+}
+
+/* Side Nav */
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  background: rgb(68, 76, 87);
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #2AC383;
+  text-decoration: none;
+}
+
+.main {
+  margin-left: 350px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+FormGroup .myPropertyAlert{
+  margin-top: 10dp;
+
+}
+
+.modal-lg {
+  max-width: 80%;
+}
+
+/* Footer */
+#footermain{
+  background: rgb(68, 76, 87);
+}
+
+a {
+text-decoration: none;
+
+}
+
+#projectLink{
+  background: #565656;
+  color: #fff;
+}
+
+#projectLink a {
+  color: #fff;
+}
+#myLink ul li a{
+  color:#fff;
+}
+
+#myLink h5{
+  color:#fff;
+}
+
+.title h5{
+  color:#fff;
+}
+
+.title p{
+  color:#fff;
+}
+
+.myPropTable{
+  margin: 30px auto;
+  width: 95%;
+}
